@@ -30,7 +30,7 @@ These features are combined into a lightweight feature vector and classified usi
 
 The dataset used in this project was prepared by me using my Android phone camera.
 
-- Source: Google Drive folder - https://drive.google.com/drive/folders/1YEHBTL3Bx4tCa5JbIjPsFB5ikKByn0g
+- Source: Google Drive folder - https://drive.google.com/drive/folders/1YEHBTL3Bx4tCa5JbIjPsFB5ikKByn0g_?usp=drive_link
 - Collection setup: images were captured directly with an Android phone in real-world conditions.
 - Classes:
   - **Real**: natural photos of real-world scenes
