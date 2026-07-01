@@ -1,6 +1,6 @@
-# Spot the Fake Photo
 
-A lightweight image forensics pipeline for detecting whether an input image is a **real photograph** or a **photograph of a screen (recapture)**.
+
+A lightweight image pipeline for detecting whether an input image is a **real photograph** or a **photograph of a screen (recapture)**.
 
 The project was developed for the SalesCode.ai "Spot the Fake Photo" assignment. Instead of training a deep neural network, the solution relies on handcrafted forensic features and a compact machine learning model designed for fast on-device inference.
 
@@ -25,6 +25,17 @@ The pipeline extracts handcrafted image forensic features including:
 - JPEG blockiness features
 
 These features are combined into a lightweight feature vector and classified using a small ensemble model.
+
+## Dataset
+
+The dataset used in this project was prepared by me using my Android phone camera.
+
+- Source: Google Drive folder - https://drive.google.com/drive/folders/1YEHBTL3Bx4tCa5JbIjPsFB5ikKByn0g_
+- Collection setup: images were captured directly with an Android phone in real-world conditions.
+- Classes:
+  - **Real**: natural photos of real-world scenes
+  - **Screen recapture**: photos of a display showing content such as webpages, videos, or images
+
 
 ## Results
 
