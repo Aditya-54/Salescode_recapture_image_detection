@@ -24,6 +24,9 @@ env/
 .DS_Store
 Thumbs.db
 
+# Assignment artifacts
+ASSIGNMENT.pdf
+
 # Large local assets (not needed for source code)
 Dataset/
 
